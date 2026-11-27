@@ -1,13 +1,13 @@
+#include <iostream>
 class Date{
 	public:
 		Date(int year,int month,int day);
-		int getYear();
+		double getYear();
 		int getMonth();
 		int getDay();
 	private:
-		int year_;
+		double year_;
 		int month_;
 		int day_;
-		bool isDate(month_,day_);
-		
+		bool isDate(month,day);
 };
